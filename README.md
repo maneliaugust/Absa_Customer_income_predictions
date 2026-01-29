@@ -37,6 +37,7 @@ Income_group.csv – Income grouping descriptions
 
 SampleSubmission.csv – Submission format
 
+
 🛠 Data Preparation & Feature Engineering
 
 Raw transaction data is too detailed for direct modeling, so it is summarized per customer.
@@ -59,6 +60,7 @@ Encode categorical variables (e.g. employment status)
 
 Merge transaction features with demographic data
 
+
 🤖 Model Used
 Random Forest Regression
 
@@ -80,6 +82,7 @@ max_depth – Limits tree complexity to prevent overfitting
 
 min_samples_leaf – Ensures stable predictions by avoiding very small splits
 
+
 📊 Model Evaluation
 
 The training data is split into training and validation sets
@@ -87,6 +90,7 @@ The training data is split into training and validation sets
 Performance is measured using regression error metrics (e.g. MAE / RMSE)
 
 Feature importance is analyzed to understand what drives income prediction
+
 
 📈 Results
 
@@ -103,6 +107,7 @@ Employment status
 
 Age
 
+
 🚀 Future Improvements
 
 Incorporate time-based trends (monthly spending behavior)
@@ -113,6 +118,7 @@ Perform deeper hyperparameter tuning
 
 Add customer segmentation (clustering)
 
+
 🧠 Key Learnings
 
 Feature engineering is crucial when working with transaction data
@@ -120,6 +126,7 @@ Feature engineering is crucial when working with transaction data
 Random Forest is a strong baseline for regression problems with complex data
 
 Controlling model complexity helps prevent overfitting
+
 
 📎 Tools & Libraries
 
