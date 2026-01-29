@@ -6,6 +6,7 @@ Absa Customer Income Prediction
 This project focuses on predicting a customer’s declared net income using their transaction history and demographic information.
 The dataset comes from the Absa Customer Income Prediction Challenge on Zindi, where the goal is to build a machine learning model that can estimate income based on customer behavior over 14 months.
 
+
 🎯 Problem Statement
 
 Banks collect large amounts of transaction data, but income is not always directly available.
@@ -18,6 +19,7 @@ Demographic details
 Employment information
 
 This helps banks better understand customers for credit scoring, risk analysis, and product recommendations.
+
 
 📂 Dataset Description
 
@@ -36,6 +38,7 @@ Employment_status.csv – Employment categories
 Income_group.csv – Income grouping descriptions
 
 SampleSubmission.csv – Submission format
+
 
 
 🛠 Data Preparation & Feature Engineering
@@ -61,6 +64,7 @@ Encode categorical variables (e.g. employment status)
 Merge transaction features with demographic data
 
 
+
 🤖 Model Used
 Random Forest Regression
 
@@ -83,6 +87,7 @@ max_depth – Limits tree complexity to prevent overfitting
 min_samples_leaf – Ensures stable predictions by avoiding very small splits
 
 
+
 📊 Model Evaluation
 
 The training data is split into training and validation sets
@@ -90,6 +95,7 @@ The training data is split into training and validation sets
 Performance is measured using regression error metrics (e.g. MAE / RMSE)
 
 Feature importance is analyzed to understand what drives income prediction
+
 
 
 📈 Results
@@ -108,6 +114,7 @@ Employment status
 Age
 
 
+
 🚀 Future Improvements
 
 Incorporate time-based trends (monthly spending behavior)
@@ -119,6 +126,7 @@ Perform deeper hyperparameter tuning
 Add customer segmentation (clustering)
 
 
+
 🧠 Key Learnings
 
 Feature engineering is crucial when working with transaction data
@@ -126,6 +134,7 @@ Feature engineering is crucial when working with transaction data
 Random Forest is a strong baseline for regression problems with complex data
 
 Controlling model complexity helps prevent overfitting
+
 
 
 📎 Tools & Libraries
